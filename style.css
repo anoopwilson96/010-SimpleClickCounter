@@ -8,6 +8,7 @@ body{
   align-items:center ;
   justify-content: center;
   height: 100vh;
+  border: solid black 1px;
 }
 
 h1{
@@ -28,6 +29,7 @@ header{
   align-items: center;
   justify-content: center;
   padding: 5px;
+  
 }
 
 header span{
