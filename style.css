@@ -68,7 +68,7 @@ h2{
 #save-btn{
   background-color: darkblue;
 }
-#history{
+#section2{
   background-color: white;
   height: 30vh;
   width: 45vw;
@@ -79,7 +79,7 @@ h2{
   border: solid black 1px;
 
 }
-#historySection{
+#section3{
   display: flex;
   flex-direction: row;
   align-items: center;

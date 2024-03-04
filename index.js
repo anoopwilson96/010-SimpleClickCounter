@@ -29,6 +29,9 @@ let count = 0
 let countEl = document.getElementById("count-el")
 let addEl = document.getElementById("add-btn")
 let minusEl = document.getElementById('minus-btn')
+let saveEl = document.getElementById('save-btn')
+let historyEl=document.getElementById('history-el')
+
 
 
 // add section
