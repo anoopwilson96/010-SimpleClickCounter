@@ -1,4 +1,3 @@
-// javascript
 //in-line comments
 /* multi-line comments*/
 
@@ -25,42 +24,36 @@ a()
 showNewMessage()
 a() */
 
-// Increment section
 
-
-
-let count =0
-let saveEl = document.getElementById('save-el')
+let count = 0
 let countEl = document.getElementById("count-el")
-let clearEl = document.getElementById('save-el')
-let countRe = document.getElementById("count-el")
+let addEl = document.getElementById("add-btn")
+let minusEl = document.getElementById('minus-btn')
 
-function increment() {
-    count += 1 
-    countEl.innerText=count
+
+// add section
+
+addEl.addEventListener('click',add)
+
+function add() {
+    count = count+1 
+    countEl.innerHTML=count 
 }
+
+//decrement section
+
+minusEl.addEventListener('click',minus)
+
+function minus(){
+  count=count-1
+  countEl.innerHTML=count
+}
+
+
 // reset section
 
-
+let countRe = document.getElementById("count-el")
 function reset() {
-count = 0
-countRe.innerText = count
-}
-
-//save section
-
-function save(){
-    let countStr = count + " - "
-    saveEl.textContent+= countStr
-    //on above step we changed .innerText with .textContent 
-    //to make spaces even and clear
-}
-
-//clear button
-function clear(){
- saveEl.textContent = "_";
-      
+    count = 0
+    countRe.innerHTML = count
   }
-  
-
-
