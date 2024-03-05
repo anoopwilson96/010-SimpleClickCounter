@@ -32,6 +32,7 @@ let minusEl = document.getElementById('minus-btn')
 let resetEl=document.getElementById('reset-btn')
 let saveEl = document.getElementById('save-btn')
 let historyEl=document.getElementById('history-el')
+let clearEl=document.getElementById('clear-btn')
 
 
 
@@ -66,5 +67,15 @@ function reset() {
 saveEl.addEventListener('click',save)
 
 function save(){
-  historyEl.innerHTML=  " - " + count
+  historyString= count + " - "
+  historyEl.innerHTML +=  historyString 
+}
+// clear history
+
+clearEl.addEventListener('click',clear)
+
+function clear(){
+  historyString = " "
+  historyEl.innerHTML= historyString
+  console.log("run")
 }

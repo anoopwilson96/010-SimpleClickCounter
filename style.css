@@ -86,6 +86,9 @@ h2{
   justify-content: center;
   
 }
+#saveDisplay{
+  padding: 15px;
+}
 button{
   border: 0;
   border-radius: .25rem;
