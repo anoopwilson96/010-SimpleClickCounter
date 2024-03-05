@@ -29,8 +29,8 @@ let count = 0
 let countEl = document.getElementById("count-el")
 let addEl = document.getElementById("add-btn")
 let minusEl = document.getElementById('minus-btn')
+let resetEl=document.getElementById('reset-btn')
 let saveEl = document.getElementById('save-btn')
-let historyEl=document.getElementById('')
 let historyEl=document.getElementById('history-el')
 
 
@@ -55,9 +55,9 @@ function minus(){
 
 
 // reset section
+resetEl.addEventListener('click',reset)
 
-let countRe = document.getElementById("count-el")
 function reset() {
     count = 0
-    countRe.innerHTML = count
+    countEl.innerHTML = count
   }
