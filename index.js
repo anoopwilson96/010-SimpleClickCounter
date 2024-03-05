@@ -61,3 +61,10 @@ function reset() {
     count = 0
     countEl.innerHTML = count
   }
+// save section
+
+saveEl.addEventListener('click',save)
+
+function save(){
+  historyEl.innerHTML=  " - " + count
+}
