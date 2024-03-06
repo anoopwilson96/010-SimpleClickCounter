@@ -4,3 +4,5 @@ Here's what it can do:
 Count up by clicking the "ADD" button.
 Subtract by clicking the "SUBTRACT" button.
 Save the count history by clicking the "SAVE" button, which can be cleared by clicking "Clear History".
+
+demo: https://anoopwilson96.github.io/010-SimpleClickCounter/
