@@ -6,4 +6,7 @@ Subtract by clicking the "SUBTRACT" button.
 Save the count history by clicking the "SAVE" button, which can be cleared by clicking "Clear History".
 
 demo: https://anoopwilson96.github.io/010-SimpleClickCounter/
+
+
+
 LinkedIn post: https://www.linkedin.com/posts/anoopwilson96_100daysofcode-webdevelopment-100dayschallenge-activity-7170727777795620864-rTwj?utm_source=share&utm_medium=member_desktop
